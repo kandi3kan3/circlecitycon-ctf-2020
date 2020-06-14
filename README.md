@@ -9,11 +9,11 @@ writeups yet.
 Problems
 --------
 Mystery
-- [free-space](./free-space)
-- [doot-doot](./doot-doot)
-- [totally-not-stolen](./totally-not-stolen)
-- [stage-one](./stage-one)
-- [tanuki](./tanuki)
+- [Free Space](./free-space)
+- [Doot Doot](./doot-doot)
+- [Totally Not Stolen](./totally-not-stolen)
+- [Stage One](./stage-one)
+- [Tanuki](./tanuki)
 
 Crypto
 - [Captain Birdseye](./captain-birdseye)
