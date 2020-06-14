@@ -30,6 +30,13 @@ ASCII character.
 The script is a bit messy, but it chops up each "paragraph" in the image
 into 6x6 glyphs, then assigns a unique ASCII character to each.
 
+The code starts from the first printable ASCII character that isn't a
+space, `!`. It runs through each glyph in the file, and each time it sees
+a new glyph it adds a mapping to the next ASCII character. If it sees that
+same glyph again, it just reuses the mapping it already create.d.
+So the first glyph it sees becomes `!`, the second `"`, and so on through
+the ASCII table.
+
 Running `addr2019.py` prints out all of the glyphs and what we mapped
 them to, followed by a mess of text representing the contents of the
 image:
