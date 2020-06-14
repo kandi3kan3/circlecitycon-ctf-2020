@@ -14,6 +14,10 @@ this year to refresh myself. I did find a script from last year that I
 used as a jumping-off point, but I'll explain the full process in this
 write-up.
 
+Also, this is 2020. So all of the code here is going to be Python 3.
+My teammate originally wrote our code last year in Python 2, but I've
+updated it to work with Python 3.
+
 Looking at the picture we were given, there seems to be a pretty regular
 pattern of 5x5 glyphs:
 
@@ -26,6 +30,13 @@ problem was to grab Python and convert the glyphs into something easier
 to look at. It looks like the glyphs should represent text, so we wrote
 a Python script (`addr2019.py`) to convert each glyph into a unique
 ASCII character.
+
+My go-to library for image manipulation is [Pillow], which is easy to
+install with `pip`:
+
+```
+pip3 install --user pillow
+```
 
 The script is a bit messy, but it chops up each "paragraph" in the image
 into 6x6 glyphs, then assigns a unique ASCII character to each.
@@ -296,3 +307,5 @@ That's a fancy `’` in there - it's not an ASCII apostrophe.
 
 The script `addr.py` in this repository contains the solution, which has been
 updated to print out the entirety of the text for fun.
+
+[Pillow]: https://python-pillow.org/
