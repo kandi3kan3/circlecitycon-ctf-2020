@@ -1,0 +1,1 @@
+@P=split//,".URRUUxR";@d=split//,"\n}fjbeorlr ba ugvj anvpvegpryr an gfheg erirA{PPP\n31tor";sub p{@p{"r$p","u$p"}=(P,P);pipe"r$p","u$p";++$p;($q*=2)+=$f=!fork();map{$P=$P[$f|ord($p{$_})&6];$p{$_}=(/^$P/i?$P:close$_);}keys%p}p;p;p;p;p;p;map{$p{$_}=~/^[P.]/&&close$_}%p;wait until$?;map{/^r/?<$_>:1}%p;$_=$d[$q];sleep rand(2)if/\S/;print
